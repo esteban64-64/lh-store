@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<<<<<<< HEAD
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>L&H — Moda Colombiana</title>
@@ -11,15 +10,6 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     
-=======
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>L&H — Moda Colombiana</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     :root {
       --cream: #f5f0eb;
       --dark: #1a1a1a;
@@ -28,25 +18,17 @@
       --mid: #6b6b6b;
       --light-bg: #faf7f4;
       --beige-section: #e8e0d8;
-<<<<<<< HEAD
       --hero-beige: #c4a89a;
     }
     
     html { scroll-behavior: smooth; }
     
-=======
-    }
-
-    html { scroll-behavior: smooth; }
-
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     body {
       font-family: 'Jost', sans-serif;
       background: var(--cream);
       color: var(--dark);
       overflow-x: hidden;
     }
-<<<<<<< HEAD
     
     /* ===== NAVBAR ===== */
     nav {
@@ -134,49 +116,6 @@
     /* ===== HERO ===== */
     .hero {
       margin-top: 110px;
-=======
-
-    /* ── NAVBAR ── */
-    nav {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
-      background: rgba(255,255,255,0.98);
-      backdrop-filter: blur(12px);
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 0 3rem; height: 68px;
-      border-bottom: 1px solid rgba(0,0,0,0.06);
-    }
-    .nav-logo {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.9rem; font-weight: 600; letter-spacing: 0.04em;
-      color: var(--dark); text-decoration: none;
-    }
-    .nav-logo img { height: 36px; display: block; }
-    .nav-logo span { color: var(--wine); }
-    .nav-links {
-      display: flex; gap: 2.2rem; list-style: none;
-    }
-    .nav-links a {
-      font-size: 0.65rem; font-weight: 500; letter-spacing: 0.14em;
-      text-transform: uppercase; color: var(--dark);
-      text-decoration: none; transition: color 0.2s;
-    }
-    .nav-links a:hover { color: var(--wine); }
-    .nav-actions { display: flex; gap: 1.4rem; align-items: center; }
-    .nav-actions button {
-      background: none; border: none; cursor: pointer;
-      font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase;
-      font-family: 'Jost', sans-serif; color: var(--dark);
-      border: 1px solid var(--dark); padding: 0.4rem 0.9rem;
-      transition: all 0.2s;
-    }
-    .nav-actions button:hover { background: var(--dark); color: var(--cream); }
-    .nav-icon { font-size: 1.1rem; cursor: pointer; opacity: 0.75; transition: opacity 0.2s; }
-    .nav-icon:hover { opacity: 1; }
-
-    /* ── HERO ── */
-    .hero {
-      margin-top: 68px;
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
       display: grid;
       grid-template-columns: 1.2fr 1fr;
       grid-template-rows: 1fr 1fr;
@@ -185,7 +124,6 @@
       height: 95vh;
       min-height: 700px;
     }
-<<<<<<< HEAD
     
     .hero-main {
       grid-row: 1 / 3;
@@ -356,119 +294,11 @@
   text-align: center;
 }
     
-=======
-    .hero-main {
-      grid-row: 1 / 3;
-      position: relative; overflow: hidden;
-      background: #c4a89a;
-    }
-    .hero-main img {
-      width: 100%; height: 100%; object-fit: cover;
-      object-position: center center;
-    }
-    .hero-main-text {
-      position: absolute; top: 50%; left: 2.5rem;
-      transform: translateY(-50%);
-    }
-    .hero-main-text .logo-hero {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 2.8rem; font-weight: 600;
-      color: #fff; line-height: 1;
-      margin-bottom: 0.3rem;
-    }
-    .hero-main-text .logo-hero span { color: var(--wine); }
-    .hero-main-text h1 {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 2rem; font-weight: 300; line-height: 1.15;
-      color: #fff; font-style: italic;
-      margin-bottom: 0.5rem;
-    }
-    .hero-main-text .hero-subtitle {
-      font-size: 0.9rem; color: #fff; font-weight: 300;
-      margin-bottom: 1.2rem;
-    }
-    .hero-badge {
-      display: inline-block;
-      border: 1px solid rgba(255,255,255,0.6);
-      color: #fff;
-      font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase;
-      padding: 0.4rem 1rem;
-      background: transparent;
-    }
-    .hero-sub {
-      position: relative; overflow: hidden;
-    }
-    .hero-sub img {
-      width: 100%; height: 100%; object-fit: cover;
-    }
-    .hero-classic img {
-      object-position: center 30%;
-    }
-    .hero-casualwear img {
-      object-position: center 20%;
-    }
-    .hero-sub-label {
-      position: absolute; bottom: 1.2rem; left: 1.2rem;
-      font-size: 0.65rem; letter-spacing: 0.14em; text-transform: uppercase;
-      color: #fff; font-weight: 500;
-      background: rgba(255,255,255,0.2);
-      backdrop-filter: blur(4px);
-      padding: 0.3rem 0.8rem;
-    }
-
-    /* ── BANNER BAR ── */
-    .banner-bar {
-      background: var(--dark); color: #fff;
-      display: flex; justify-content: center; gap: 4rem;
-      padding: 0.9rem 2rem;
-    }
-    .banner-item {
-      display: flex; align-items: center; gap: 0.6rem;
-      font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase;
-      color: rgba(255,255,255,0.85);
-    }
-    .banner-item .icon-circle {
-      width: 28px; height: 28px;
-      border: 1px solid rgba(255,255,255,0.4);
-      border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 0.75rem;
-    }
-    .banner-item .tallas-btn {
-      background: none; border: none; color: #fff; cursor: pointer;
-      font-family: 'Jost', sans-serif; font-size: 0.65rem;
-      letter-spacing: 0.1em; text-transform: uppercase;
-      text-decoration: underline; padding: 0;
-      transition: color 0.2s;
-    }
-    .banner-item .tallas-btn:hover { color: var(--gold); }
-
-    /* ── SECTION TITLE ── */
-    .section-header {
-      display: flex; align-items: baseline; justify-content: space-between;
-      padding: 0 3rem; margin-bottom: 2rem;
-    }
-    .section-title {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 2rem; font-weight: 400; color: var(--wine);
-    }
-    .ver-mas {
-      font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase;
-      color: var(--mid); text-decoration: none;
-      border: 1px solid var(--mid); padding: 0.35rem 1rem;
-      transition: all 0.2s;
-    }
-    .ver-mas:hover { color: var(--wine); border-color: var(--wine); }
-
-    /* ── DESCUBRE TU ESTILO ── */
-    .section { padding: 3.5rem 3rem; }
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .category-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 10px;
     }
-<<<<<<< HEAD
     
     .cat-card {
       position: relative;
@@ -995,177 +825,20 @@ footer {
   font-size: 0.85rem;             /* ← ligeramente más grandes */
 }
     
-=======
-    .cat-card {
-      position: relative; overflow: hidden; cursor: pointer;
-      aspect-ratio: 3/4;
-    }
-    .cat-card img {
-      width: 100%; height: 100%; object-fit: cover;
-      transition: transform 0.6s ease;
-    }
-    .cat-card:hover img { transform: scale(1.05); }
-    .cat-card-label {
-      position: absolute; bottom: 0; left: 0; right: 0;
-      background: linear-gradient(transparent, rgba(20,15,10,0.6));
-      padding: 2rem 1.2rem 1rem;
-      font-size: 0.65rem; letter-spacing: 0.14em; text-transform: uppercase;
-      color: #fff; font-weight: 500;
-    }
-
-    /* ── PROMOCIONES ── */
-    .promo-section {
-      background: var(--light-bg);
-      padding: 3rem 3rem;
-    }
-    .promo-title-italic {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.6rem; font-weight: 400; font-style: italic;
-      color: var(--wine); margin-bottom: 2.5rem;
-    }
-    .promo-grid {
-      display: grid; grid-template-columns: repeat(3, 1fr);
-      gap: 0;
-    }
-    .promo-card {
-      padding: 1.5rem 2rem;
-      border-right: 1px solid #d0c8c0;
-    }
-    .promo-card:last-child { border-right: none; }
-    .promo-card .type {
-      font-size: 0.58rem; letter-spacing: 0.16em; text-transform: uppercase;
-      color: var(--mid); margin-bottom: 0.4rem;
-    }
-    .promo-card .name {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.5rem; font-weight: 400; margin-bottom: 1.5rem;
-    }
-    .promo-card .btn-outline {
-      display: inline-block;
-      font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase;
-      border: 1px solid var(--dark); padding: 0.45rem 1.2rem;
-      text-decoration: none; color: var(--dark);
-      transition: all 0.2s;
-    }
-    .promo-card .btn-outline:hover { background: var(--dark); color: var(--cream); }
-
-    /* ── ACCESORIOS BANNER ── */
-    .accesorios-banner {
-      position: relative; height: 420px; overflow: hidden;
-    }
-    .accesorios-banner img {
-      width: 100%; height: 100%; object-fit: cover; object-position: center 30%;
-      filter: brightness(0.75);
-    }
-    .accesorios-text {
-      position: absolute; top: 50%; left: 3rem; transform: translateY(-50%);
-    }
-    .accesorios-text h2 {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 2.8rem; font-weight: 300; color: #fff; margin-bottom: 0.8rem;
-    }
-    .accesorios-text a {
-      font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase;
-      color: #fff; text-decoration: none;
-      border-bottom: 1px solid rgba(255,255,255,0.5);
-      padding-bottom: 2px;
-    }
-
-    /* ── HISTORIA ── */
-    .historia-section {
-      display: grid; grid-template-columns: 1fr 1fr;
-      min-height: 420px;
-      background: var(--beige-section);
-    }
-    .historia-text {
-      padding: 4rem 3.5rem;
-      display: flex; flex-direction: column; justify-content: center;
-    }
-    .historia-text .logo-large {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 2.6rem; font-weight: 600; margin-bottom: 1.2rem;
-    }
-    .historia-text .logo-large span { color: var(--wine); }
-    .historia-text h2 {
-      font-size: 1.6rem; font-weight: 400; line-height: 1.25;
-      margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.06em;
-      color: var(--wine);
-    }
-    .historia-text h2 em {
-      font-family: 'Cormorant Garamond', serif;
-      font-style: italic; font-weight: 400; color: var(--wine);
-      text-transform: none; letter-spacing: 0;
-      font-size: 2rem;
-    }
-    .historia-text p {
-      font-size: 0.82rem; line-height: 1.7; color: var(--mid);
-      max-width: 420px; margin-bottom: 1.8rem;
-    }
-    .historia-btns { display: flex; gap: 1rem; }
-    .btn-solid {
-      font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase;
-      background: transparent; color: var(--dark); border: 1px solid var(--dark);
-      padding: 0.5rem 1.4rem; text-decoration: none; transition: all 0.2s;
-    }
-    .btn-solid:hover { background: var(--dark); color: #fff; }
-    .historia-img { overflow: hidden; display: flex; align-items: center; justify-content: center; padding: 2rem; }
-    .historia-img img { width: 100%; height: 100%; object-fit: cover; max-height: 380px; }
-
-    /* ═══════════════════════════════════════════
-       PRODUCT PAGE - IMÁGENES CORREGIDAS
-       ═══════════════════════════════════════════ */
-    #product-page {
-      display: none;
-      padding-top: 68px;
-      background: #fff;
-    }
-    .breadcrumb {
-      padding: 1rem 3rem; font-size: 0.7rem; color: var(--mid);
-    }
-    .breadcrumb a { color: var(--mid); text-decoration: none; }
-    .breadcrumb a:hover { color: var(--wine); }
-    .product-top {
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 0 3rem 1rem;
-    }
-    .product-top h2 {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.6rem; font-weight: 400; color: var(--wine);
-    }
-    .product-top .filter-btn {
-      display: flex; align-items: center; gap: 0.4rem;
-      border: 1px solid #ccc; background: none;
-      padding: 0.4rem 0.9rem; font-size: 0.65rem;
-      letter-spacing: 0.1em; text-transform: uppercase;
-      cursor: pointer; font-family: 'Jost', sans-serif;
-    }
-
-    /* ── LAYOUT PRINCIPAL DEL PRODUCTO ── */
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .product-layout {
       display: flex;
       gap: 3rem;
       padding: 1rem 3rem 3rem;
       align-items: flex-start;
     }
-<<<<<<< HEAD
     
-=======
-
-    /* ── GALERÍA DE IMÁGENES (CORREGIDA) ── */
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .product-gallery {
       flex: 1;
       display: flex;
       gap: 12px;
       height: 600px;
     }
-<<<<<<< HEAD
     
-=======
-
-    /* Columna izquierda: imagen grande principal */
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .gallery-main {
       flex: 1.5;
       position: relative;
@@ -1173,54 +846,31 @@ footer {
       border-radius: 8px;
       background: #f5f5f5;
     }
-<<<<<<< HEAD
     
-=======
-
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .gallery-main img {
       width: 100%;
       height: 100%;
       object-fit: cover;
-<<<<<<< HEAD
       object-position: center center;
       transition: transform 0.3s ease;
     }
     
     .gallery-main:hover img { transform: scale(1.02); }
     
-=======
-      /* Puedes ajustar la posición de ESTA imagen individualmente */
-      object-position: center center;
-      transition: transform 0.3s ease;
-    }
-
-    .gallery-main:hover img {
-      transform: scale(1.02);
-    }
-
-    /* Columna derecha: imágenes secundarias apiladas */
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .gallery-side {
       flex: 1;
       display: flex;
       flex-direction: column;
       gap: 12px;
     }
-<<<<<<< HEAD
     
     .side-img {
-=======
-
-    .gallery-side .side-img {
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
       flex: 1;
       position: relative;
       overflow: hidden;
       border-radius: 8px;
       background: #f5f5f5;
     }
-<<<<<<< HEAD
     
     .side-img img {
       width: 100%;
@@ -1233,64 +883,10 @@ footer {
     .side-img:nth-child(2) img { object-position: center 40%; }
     .side-img:hover img { transform: scale(1.03); }
     
-=======
-
-    .gallery-side .side-img img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      /* Puedes ajustar la posición de CADA imagen individualmente */
-      transition: transform 0.3s ease;
-    }
-
-    /* Posiciones individuales de cada imagen secundaria */
-    .gallery-side .side-img:nth-child(1) img {
-      object-position: center 20%;
-    }
-
-    .gallery-side .side-img:nth-child(2) img {
-      object-position: center 40%;
-    }
-
-    .gallery-side .side-img:hover img {
-      transform: scale(1.03);
-    }
-
-    /* Miniaturas debajo (opcional) */
-    .gallery-thumbs {
-      display: flex;
-      gap: 8px;
-      margin-top: 12px;
-    }
-
-    .gallery-thumbs .thumb {
-      width: 70px;
-      height: 90px;
-      border-radius: 6px;
-      overflow: hidden;
-      cursor: pointer;
-      border: 2px solid transparent;
-      transition: border-color 0.2s;
-    }
-
-    .gallery-thumbs .thumb:hover,
-    .gallery-thumbs .thumb.active {
-      border-color: var(--wine);
-    }
-
-    .gallery-thumbs .thumb img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    /* ── INFORMACIÓN DEL PRODUCTO ── */
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .product-info {
       flex: 0 0 380px;
       padding-top: 0.5rem;
     }
-<<<<<<< HEAD
     
     .product-category {
       font-size: 0.6rem;
@@ -1510,113 +1106,15 @@ footer {
     .accordion-product .accordion-body.open { display: block; }
     
     /* ===== GUIA DE TALLAS ===== */
-=======
-    .product-category {
-      font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase;
-      color: var(--mid); margin-bottom: 0.5rem;
-    }
-    .product-name {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.6rem; font-weight: 400; margin-bottom: 0.2rem;
-    }
-    .product-ref { font-size: 0.7rem; color: var(--mid); margin-bottom: 0.8rem; }
-    .product-price {
-      font-size: 1.3rem; font-weight: 500; color: var(--dark); margin-bottom: 1.2rem;
-    }
-    .label-sm {
-      font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase;
-      color: var(--mid); margin-bottom: 0.4rem;
-    }
-    .color-dots { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
-    .color-dot {
-      width: 22px; height: 22px; border-radius: 50%;
-      border: 2px solid transparent; cursor: pointer;
-      transition: border-color 0.2s;
-    }
-    .color-dot.active { border-color: var(--dark); }
-    .size-select-dropdown {
-      width: 100%; max-width: 200px;
-      padding: 0.5rem 0.8rem;
-      border: 1px solid #ccc;
-      font-family: 'Jost', sans-serif; font-size: 0.8rem;
-      margin-bottom: 1rem; cursor: pointer;
-      background: #fff;
-    }
-    .qty-row { display: flex; align-items: center; gap: 0; margin-bottom: 1.2rem; }
-    .qty-btn {
-      width: 32px; height: 32px; border: 1px solid #ccc;
-      background: none; cursor: pointer; font-size: 1rem;
-      display: flex; align-items: center; justify-content: center;
-      transition: background 0.2s;
-    }
-    .qty-btn:hover { background: #f0ece7; }
-    .qty-val {
-      width: 40px; height: 32px;
-      border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 0.85rem;
-    }
-    .buy-btn {
-      width: 100%; max-width: 200px; padding: 0.7rem;
-      background: var(--wine); color: #fff; border: none; cursor: pointer;
-      font-family: 'Jost', sans-serif; font-size: 0.7rem;
-      letter-spacing: 0.14em; text-transform: uppercase;
-      margin-bottom: 1rem;
-      transition: background 0.2s;
-    }
-    .buy-btn:hover { background: #6e1530; }
-    .product-actions { display: flex; gap: 0.6rem; margin-bottom: 1.2rem; }
-    .tallas-link-btn {
-      display: flex; align-items: center; gap: 0.4rem;
-      background: var(--wine); color: #fff; border: none; cursor: pointer;
-      font-family: 'Jost', sans-serif; font-size: 0.6rem;
-      letter-spacing: 0.1em; text-transform: uppercase;
-      padding: 0.5rem 1rem; border-radius: 2px;
-    }
-    .rating-btn {
-      display: flex; align-items: center; gap: 0.4rem;
-      background: var(--wine); color: #fff; border: none; cursor: pointer;
-      font-family: 'Jost', sans-serif; font-size: 0.6rem;
-      letter-spacing: 0.1em; text-transform: uppercase;
-      padding: 0.5rem 1rem; border-radius: 2px;
-    }
-    .stars { color: rgba(255,255,255,0.5); letter-spacing: 2px; }
-    .accordion {
-      border-top: 1px solid #ddd;
-      max-width: 400px;
-    }
-    .accordion-item { border-bottom: 1px solid #ddd; }
-    .accordion-header {
-      display: flex; justify-content: space-between; align-items: center;
-      padding: 0.9rem 0; cursor: pointer;
-      font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase;
-      user-select: none;
-    }
-    .accordion-header:hover { color: var(--wine); }
-    .accordion-body {
-      font-size: 0.78rem; line-height: 1.7; color: var(--mid);
-      padding-bottom: 0.8rem; display: none;
-    }
-    .accordion-body.open { display: block; }
-
-    /* ── GUÍA DE TALLAS EN PÁGINA ── */
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .guia-section {
       padding: 2.5rem 3rem 4rem;
       background: #fff;
       position: relative;
       z-index: 1;
-<<<<<<< HEAD
       display: block;
       border-top: 1px solid #ede8e2;
     }
     
-=======
-      clear: both;
-      display: block;
-      border-top: 1px solid #ede8e2;
-    }
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .guia-title {
       font-family: 'Cormorant Garamond', serif;
       font-size: 2rem;
@@ -1626,10 +1124,7 @@ footer {
       margin-bottom: 2rem;
       letter-spacing: -0.5px;
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .guia-layout {
       display: flex;
       flex-wrap: wrap;
@@ -1637,19 +1132,13 @@ footer {
       align-items: flex-start;
       justify-content: center;
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .guia-images {
       flex: 1.2;
       min-width: 240px;
       max-width: 360px;
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .guia-images img {
       width: 100%;
       height: auto;
@@ -1657,28 +1146,19 @@ footer {
       border-radius: 12px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.05);
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .guia-table-area {
       flex: 2;
       min-width: 320px;
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .guia-tabs {
       display: flex;
       gap: 0.2rem;
       border-bottom: 1px solid #ddd;
       margin-bottom: 1.8rem;
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .guia-tab {
       padding: 0.6rem 1.6rem;
       font-size: 0.7rem;
@@ -1694,18 +1174,12 @@ footer {
       transition: all 0.2s;
       font-weight: 500;
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .guia-tab.active {
       color: var(--wine);
       border-bottom-color: var(--wine);
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .guia-subtitle {
       font-size: 1rem;
       font-weight: 600;
@@ -1714,20 +1188,14 @@ footer {
       margin-bottom: 1rem;
       color: var(--dark);
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .guia-question {
       font-size: 0.7rem;
       color: var(--mid);
       margin-bottom: 0.8rem;
       font-weight: 400;
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .guia-toggle {
       display: inline-flex;
       border: 1px solid #ddd;
@@ -1736,10 +1204,7 @@ footer {
       border-radius: 30px;
       overflow: hidden;
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .guia-toggle-btn {
       padding: 0.3rem 1.2rem;
       border: none;
@@ -1750,18 +1215,10 @@ footer {
       transition: 0.2s;
       font-weight: 500;
     }
-<<<<<<< HEAD
     
     .guia-toggle-btn:first-child { border-right: 1px solid #ddd; }
     .guia-toggle-btn.active { background: var(--dark); color: #fff; }
     
-=======
-    .guia-toggle-btn:first-child { border-right: 1px solid #ddd; }
-    .guia-toggle-btn.active {
-      background: var(--dark);
-      color: #fff;
-    }
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .size-table {
       width: 100%;
       border-collapse: collapse;
@@ -1769,10 +1226,7 @@ footer {
       background: #fff;
       box-shadow: 0 1px 2px rgba(0,0,0,0.03);
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .size-table th {
       background: var(--dark);
       color: #fff;
@@ -1783,10 +1237,7 @@ footer {
       text-align: center;
       font-weight: 500;
     }
-<<<<<<< HEAD
     
-=======
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .size-table td {
       padding: 0.6rem 0.5rem;
       text-align: center;
@@ -1794,7 +1245,6 @@ footer {
       border-bottom: 1px solid #f0ece7;
       color: var(--dark);
     }
-<<<<<<< HEAD
     
     .size-table tr:nth-child(even) td { background: #faf7f4; }
     
@@ -1839,44 +1289,11 @@ footer {
   flex-shrink: 0;
 }
     
-=======
-    .size-table tr:nth-child(even) td {
-      background: #faf7f4;
-    }
-    .medidas-title {
-      font-size: 0.7rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--wine);
-      margin-bottom: 1rem;
-      font-weight: 600;
-    }
-    .medida-item {
-      display: flex;
-      gap: 1rem;
-      margin-bottom: 1rem;
-      align-items: flex-start;
-    }
-    .medida-badge {
-      min-width: 26px;
-      height: 26px;
-      border-radius: 50%;
-      background: var(--wine);
-      color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.7rem;
-      font-weight: 600;
-      flex-shrink: 0;
-    }
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     .medida-item p {
       font-size: 0.78rem;
       line-height: 1.5;
       color: var(--mid);
     }
-<<<<<<< HEAD
     
     .medida-item strong { color: var(--dark); }
     
@@ -2129,215 +1546,10 @@ footer {
     <button class="hero-sub-label" onclick="showPage('product')">Plus Size</button>
   </div>
 </section>
-=======
-    .medida-item strong {
-      color: var(--dark);
-    }
-
-    /* ── COMPLEMENTA ── */
-    .complementa-section { padding: 2.5rem 3rem 3rem; background: var(--light-bg); }
-    .complementa-title {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.6rem; font-weight: 400; color: var(--wine);
-      margin-bottom: 1.5rem; text-align: center;
-    }
-    .related-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
-    .related-card { cursor: pointer; }
-    .related-card img { width: 100%; aspect-ratio: 3/4; object-fit: cover; margin-bottom: 0.5rem; transition: opacity 0.2s; }
-    .related-card:hover img { opacity: 0.85; }
-    .related-card .r-name { font-size: 0.72rem; margin-bottom: 0.15rem; color: var(--dark); }
-    .related-card .r-price { font-size: 0.8rem; font-weight: 500; color: var(--dark); }
-
-    /* ── FOOTER ── */
-    footer {
-      background: var(--dark); color: #fff;
-      padding: 3rem 3rem 2rem;
-    }
-    .footer-grid {
-      display: grid; grid-template-columns: 1.2fr 1fr 1fr 1fr;
-      gap: 2rem; margin-bottom: 2.5rem;
-    }
-    .footer-logo {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 3rem; font-weight: 600; margin-bottom: 0.5rem;
-      line-height: 1;
-    }
-    .footer-logo span { color: var(--wine); }
-    .footer-tagline { font-size: 0.7rem; color: rgba(255,255,255,0.45); line-height: 1.6; }
-    .footer-legal { margin-top: 1.5rem; }
-    .footer-legal p {
-      font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase;
-      color: rgba(255,255,255,0.35); margin-bottom: 0.4rem;
-    }
-    .footer-legal a {
-      display: block; font-size: 0.68rem; color: rgba(255,255,255,0.5);
-      text-decoration: none; margin-bottom: 0.2rem; transition: color 0.2s;
-    }
-    .footer-legal a:hover { color: #fff; }
-    .footer-col h4 {
-      font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase;
-      color: rgba(255,255,255,0.45); margin-bottom: 1rem;
-    }
-    .footer-col a {
-      display: block; font-size: 0.72rem; color: rgba(255,255,255,0.65);
-      text-decoration: none; margin-bottom: 0.35rem; transition: color 0.2s;
-    }
-    .footer-col a:hover { color: #fff; }
-    .footer-social h4 {
-      font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase;
-      color: rgba(255,255,255,0.45); margin-bottom: 0.5rem;
-    }
-    .footer-social p {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.1rem; font-style: italic; color: rgba(255,255,255,0.7);
-      margin-bottom: 1rem;
-    }
-    .social-icons { display: flex; gap: 0.8rem; }
-    .social-icon {
-      width: 32px; height: 32px;
-      display: flex; align-items: center; justify-content: center;
-      text-decoration: none; font-size: 0.9rem; color: #fff;
-      transition: all 0.2s;
-    }
-    .social-icon:hover { opacity: 0.7; }
-    .footer-bottom {
-      border-top: 1px solid rgba(255,255,255,0.1);
-      padding-top: 1.5rem;
-      display: flex; justify-content: space-between; align-items: center;
-    }
-    .footer-bottom p { font-size: 0.65rem; color: rgba(255,255,255,0.3); }
-
-    #home-page { display: block; }
-
-    /* ── RESPONSIVE ── */
-    @media (max-width: 1024px) {
-      .product-layout {
-        flex-direction: column;
-      }
-      .product-gallery {
-        height: 500px;
-      }
-      .product-info {
-        flex: 1;
-        width: 100%;
-      }
-    }
-
-    @media (max-width: 780px) {
-      .guia-layout { flex-direction: column; }
-      .guia-images { max-width: 100%; text-align: center; }
-      .product-gallery {
-        flex-direction: column;
-        height: auto;
-      }
-      .gallery-main {
-        height: 400px;
-      }
-      .gallery-side {
-        flex-direction: row;
-        height: 200px;
-      }
-    }
-
-    /* ── MODAL ── */
-    .modal-overlay {
-      display: none; position: fixed; inset: 0; z-index: 2000;
-      background: rgba(15,10,8,0.65); backdrop-filter: blur(5px);
-      align-items: center; justify-content: center;
-    }
-    .modal-overlay.open { display: flex; }
-    .modal-box {
-      background: #fff; width: 640px; max-width: 94vw;
-      max-height: 88vh; overflow-y: auto; position: relative;
-      animation: modalIn 0.26s ease;
-    }
-    @keyframes modalIn { from{opacity:0;transform:translateY(16px);} to{opacity:1;transform:translateY(0);} }
-    .modal-close {
-      position: absolute; top: 1rem; right: 1.2rem;
-      background: none; border: none; font-size: 1.4rem; cursor: pointer;
-      color: var(--mid); transition: color 0.2s; z-index: 3;
-    }
-    .modal-close:hover { color: var(--wine); }
-    .modal-inner { padding: 2rem 2.2rem 2.5rem; }
-    .modal-title {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.9rem; font-weight: 400; margin-bottom: 0.3rem;
-      letter-spacing: 0.04em; text-transform: uppercase;
-    }
-    .modal-subtitle { font-size: 0.7rem; color: var(--mid); margin-bottom: 1.4rem; }
-    .modal-tabs {
-      display: flex; border-bottom: 2px solid #eee; margin-bottom: 1.8rem;
-    }
-    .modal-tab {
-      padding: 0.5rem 1.4rem; background: none; border: none;
-      font-size: 0.62rem; letter-spacing: 0.13em; text-transform: uppercase;
-      font-weight: 600; color: var(--mid); cursor: pointer;
-      border-bottom: 2px solid transparent; margin-bottom: -2px;
-      font-family: 'Jost', sans-serif; transition: all 0.2s;
-    }
-    .modal-tab.active { color: var(--wine); border-bottom-color: var(--wine); }
-    .modal-panel { display: block; }
-    .sub-tabs { display: flex; gap: 1.5rem; margin-bottom: 1rem; }
-    .sub-tab {
-      background: none; border: none; font-size: 0.62rem;
-      letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600;
-      color: var(--mid); cursor: pointer; padding-bottom: 3px;
-      border-bottom: 1px solid transparent; transition: all 0.2s;
-      font-family: 'Jost', sans-serif;
-    }
-    .sub-tab.active { color: var(--dark); border-bottom-color: var(--dark); }
-  </style>
-<base target="_blank">
-</head>
-<body>
-
-<!-- ══════════════ NAVBAR ══════════════ -->
-<nav>
-  <a class="nav-logo" href="#" onclick="showPage('home')"><img src="images/logo-and.png" alt="L&H" style="height:40px; display:block;"></a>
-  <ul class="nav-links">
-    <li><a href="#">Classic</a></li>
-    <li><a href="#">Casualwear</a></li>
-    <li><a href="#">Plus Side</a></li>
-    <li><a href="#">Accesorios</a></li>
-    <li><a href="#">Nosotros</a></li>
-  </ul>
-  <div class="nav-actions">
-    <button onclick="showPage('home')">Rastrear Pedido</button>
-    <span class="nav-icon">🔍</span>
-    <span class="nav-icon">🛍</span>
-    <span class="nav-icon">👤</span>
-  </div>
-</nav>
-
-<!-- ══════════════ HOME PAGE ══════════════ -->
-<div id="home-page">
-
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-main">
-      <img src="images/10.jpeg" alt="L&H Hero">
-      <div class="hero-main-text">
-        <img src="images/logo-and.png" alt="L&H" style="width:90px; margin-bottom:0.8rem; display:block;">
-        <h1>Versatilidad,<br>para tu vida!</h1>
-        <p class="hero-subtitle">para tu vida!</p>
-        <div class="hero-badge">Plus Side</div>
-      </div>
-    </div>
-    <div class="hero-sub hero-classic">
-      <img src="images/5.jpeg" alt="Classic">
-      <div class="hero-sub-label">Classic</div>
-    </div>
-    <div class="hero-sub hero-casualwear">
-      <img src="images/9.jpeg" alt="Casualwear">
-      <div class="hero-sub-label">Casualwear</div>
-    </div>
-  </section>
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
 
   <!-- BANNER BAR -->
   <div class="banner-bar">
     <div class="banner-item">
-<<<<<<< HEAD
       <div class="banner-icon"><i class="fas fa-cube"></i></div>
       <div>
         <div class="banner-text">ENVÍOS GRATIS POR COMPRAS</div>
@@ -2351,24 +1563,11 @@ footer {
     <div class="banner-item">
       <div class="banner-icon"><i class="fas fa-shield-alt"></i></div>
       <span class="banner-text">Compra segura</span>
-=======
-      <div class="icon-circle">📦</div>
-      Envíos gratis por compras superiores a $129.900
-    </div>
-    <div class="banner-item">
-      <div class="icon-circle">📏</div>
-      <button class="tallas-btn" onclick="openModal()">Guía de tallas</button>
-    </div>
-    <div class="banner-item">
-      <div class="icon-circle">🔒</div>
-      Compra segura
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     </div>
   </div>
 
   <!-- DESCUBRE TU ESTILO -->
   <section class="section">
-<<<<<<< HEAD
     <!-- DESPUÉS -->
 <div class="section-header">
   <h2 class="section-title">Descubre tu estilo</h2>
@@ -2389,33 +1588,10 @@ footer {
       <div class="cat-card" onclick="showPage('product')">
         <img src="images/imagen7.jpg" alt="Vestidos">
         <div class="cat-card-label">VESTIDOS</div>
-=======
-    <div class="section-header">
-      <h2 class="section-title">Descubre tu estilo</h2>
-      <a href="#" class="ver-mas">Ver más</a>
-    </div>
-    <div class="category-grid">
-      <div class="cat-card" onclick="showPage('product')">
-        <img src="images/3.jpeg" alt="Vestidos">
-        <div class="cat-card-label">Vestidos</div>
-      </div>
-      <div class="cat-card" onclick="showPage('product')">
-        <img src="images/6.jpeg" alt="Blusas">
-        <div class="cat-card-label">Blusas</div>
-      </div>
-      <div class="cat-card" onclick="showPage('product')">
-        <img src="images/4.jpeg" alt="Jeans">
-        <div class="cat-card-label">Jeans</div>
-      </div>
-      <div class="cat-card" onclick="showPage('product')">
-        <img src="images/7.jpeg" alt="Camisetas">
-        <div class="cat-card-label">Camisetas</div>
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
       </div>
     </div>
   </section>
 
-<<<<<<< HEAD
 <!-- ===== PROMOCIONES ===== -->
 <section class="promo-section">
   <h2 class="promo-title-italic">Promociones para ti</h2>
@@ -2474,80 +1650,10 @@ footer {
         <h4>Términos legales</h4>
         <a href="#">Términos y condiciones</a>
         <a href="#">Políticas de garantía</a>
-=======
-  <!-- PROMOCIONES -->
-  <section class="promo-section">
-    <p class="promo-title-italic">Promociones para ti</p>
-    <div class="promo-grid">
-      <div class="promo-card">
-        <p class="type">Liquidación</p>
-        <h3 class="name">Classic</h3>
-        <a href="#" class="btn-outline">Ver Ofertas</a>
-      </div>
-      <div class="promo-card">
-        <p class="type">Ofertas especiales</p>
-        <h3 class="name">Casualwear</h3>
-        <a href="#" class="btn-outline">Ver Ofertas</a>
-      </div>
-      <div class="promo-card">
-        <p class="type">Precios bajos</p>
-        <h3 class="name">Plus Side</h3>
-        <a href="#" class="btn-outline">Ver Ofertas</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ACCESORIOS BANNER -->
-  <div class="accesorios-banner">
-    <img src="images/8.jpeg" alt="Accesorios">
-    <div class="accesorios-text">
-      <h2>Accesorios</h2>
-      <a href="#">Ver accesorios</a>
-    </div>
-  </div>
-
-  <!-- HISTORIA -->
- <div class="historia-section">
-    <div class="historia-text">
-      <img src="images/logo-and.png" alt="L&H" style="width:100px; margin-bottom:1.2rem; display:block;">
-      <h2>Una marca<br>con <em>Historia</em><br>Colombiana</h2>
-      <p>L&H es una marca con más de 50 años en el mercado, apoyando la manufactura colombiana y trabajando de la mano con seres humanos llenos de talento. Ropa de moda para mujer, mujer plus size y hombre — hecha con orgullo en Colombia para el mundo.</p>
-      <div class="historia-btns">
-        <a href="#" class="btn-solid">Quiénes somos</a>
-        <a href="#" class="btn-solid">Nuestras tiendas</a>
-      </div>
-    </div>
-    <div class="historia-img">
-      <img src="images/2.jpeg" alt="Historia L&H">
-    </div>
-  </div>
-
-  <!-- FOOTER -->
- <!-- FOOTER HOME PAGE - Corregido con imagen de logo -->
-<<footer>
-  <div class="footer-grid">
-    <div>
-      <!-- Logo como imagen (igual que en product page) -->
-      <img src="images/logo-white.png" alt="L&H" 
-           style="width:140px; margin-bottom:1rem; display:block;"
-           onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-      
-      <!-- Fallback: texto blanco si la imagen no carga -->
-      <div class="footer-logo" style="display:none; margin-bottom:0.5rem;">
-        L<span>&</span>H
-      </div>
-      
-      <p class="footer-tagline">Moda colombiana con más de 50 años de historia, orgullo y talento para el mundo.</p>
-      <div class="footer-legal">
-        <p>Términos legales</p>
-        <a href="#">Términos y condiciones</a>
-        <a href="#">Política de garantía</a>
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
         <a href="#">Cambios y devoluciones</a>
         <a href="#">SIC</a>
       </div>
     </div>
-<<<<<<< HEAD
 
     <!-- COLUMNA 2: Compañía -->
     <div class="footer-col">
@@ -2569,28 +1675,10 @@ footer {
     </div>
 
     <!-- COLUMNA 4: Redes sociales -->
-=======
-    <div class="footer-col">
-      <h4>¡Compañía!</h4>
-      <a href="#">Quiénes somos</a>
-      <a href="#">Colecciones</a>
-      <a href="#">Nuestras tiendas</a>
-      <a href="#">Trabaja con nosotros</a>
-      <a href="#">Intranet</a>
-    </div>
-    <div class="footer-col">
-      <h4>¿Necesitas ayuda?</h4>
-      <a href="#">Preguntas frecuentes</a>
-      <a href="#">Peticiones, quejas y reclamos</a>
-      <a href="#">Cambios y devoluciones</a>
-      <a href="#">Envíos y entregas</a>
-    </div>
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     <div class="footer-social">
       <h4>¡Síguenos en nuestras</h4>
       <p>REDES SOCIALES!</p>
       <div class="social-icons">
-<<<<<<< HEAD
         <a href="#" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
         <a href="#" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
         <a href="#" class="social-icon" title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
@@ -2602,30 +1690,12 @@ footer {
 </div><!-- home-page -->
 
 <!-- ===== PRODUCT PAGE ===== -->
-=======
-        <a href="#" class="social-icon">f</a>
-        <a href="#" class="social-icon">📷</a>
-        <a href="#" class="social-icon">✕</a>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>© 2025 L&H. Todos los derechos reservados.</p>
-    <p>Hecho con orgullo en Colombia 🇨🇴</p>
-  </div>
-</footer>
-
-</div><!-- /home-page -->
-
-<!-- ══════════════ PRODUCT PAGE ══════════════ -->
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
 <div id="product-page">
 
   <div class="breadcrumb">
     <a href="#" onclick="showPage('home')">Home</a> › <a href="#">Casualwear</a> › Chaquetas
   </div>
 
-<<<<<<< HEAD
 <div class="product-top">
   <!-- Línea 1: Subtítulo centrado -->
   <p class="product-top-subtitle">Con L&H, encuentras la versatilidad en cada prenda</p>
@@ -2651,50 +1721,13 @@ footer {
           <img src="images/imagen12.jpeg" alt="Chaqueta completa" id="img-side-2">
         </div>
       </div>
-=======
-  <div class="product-top">
-    <h2>Casualwear</h2>
-    <button class="filter-btn">≡ Filtrar</button>
-  </div>
-
-  <!-- ═══════════════════════════════════════════
-       GALERÍA DE IMÁGENES CORREGIDA
-       Ahora con estructura flex para control individual
-       ═══════════════════════════════════════════ -->
-  <div class="product-layout">
-
-    <!-- GALERÍA: estructura de 3 columnas con control individual -->
-    <div class="product-gallery">
-
-      <!-- Imagen principal (izquierda, más grande) -->
-      <div class="gallery-main">
-        <img src="images/16.jpeg" alt="Chaqueta vista frontal" id="img-main">
-      </div>
-
-      <!-- Imágenes secundarias (derecha, apiladas) -->
-      <div class="gallery-side">
-        <div class="side-img">
-          <img src="images/15.jpeg" alt="Chaqueta vista lateral" id="img-side-1">
-        </div>
-        <div class="side-img">
-          <img src="images/17.jpeg" alt="Chaqueta completa" id="img-side-2">
-        </div>
-      </div>
-
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
     </div>
 
     <!-- INFO DEL PRODUCTO -->
     <div class="product-info">
-<<<<<<< HEAD
       
       <h1 class="product-name">Chaqueta mujer unicolor</h1>
       <p class="product-ref">REF. 6N408016</p>
-=======
-      <p class="product-category">Chaqueta mujer unicolor</p>
-      <h1 class="product-name">Chaqueta mujer unicolor</h1>
-      <p class="product-ref">REF: 4140015</p>
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
       <p class="product-price">$229.900</p>
 
       <p class="label-sm">Color</p>
@@ -2721,7 +1754,6 @@ footer {
         <button class="qty-btn" onclick="changeQty(1)">+</button>
       </div>
 
-<<<<<<< HEAD
       <button class="buy-btn">COMPRAR</button>
 
       <div class="product-actions">
@@ -2735,20 +1767,6 @@ footer {
       </div>
 
       <div class="accordion-product">
-=======
-      <button class="buy-btn">Comprar</button>
-
-      <div class="product-actions">
-        <button class="tallas-link-btn" onclick="openModal()">
-          📏 Guía de tallas
-        </button>
-        <button class="rating-btn">
-          Califica el producto <span class="stars">★★★★★</span>
-        </button>
-      </div>
-
-      <div class="accordion">
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
         <div class="accordion-item">
           <div class="accordion-header" onclick="toggleAccordion(this)">
             <span>Descripción</span><span>+</span>
@@ -2770,20 +1788,11 @@ footer {
   </div>
 
   <!-- GUÍA DE TALLAS -->
-<<<<<<< HEAD
   <div class="guia-section" id="guia-section" style="display: none;">
     <h2 class="guia-title">Guía de Tallas</h2>
     <div class="guia-layout">
       <div class="guia-images">
         <img src="images/medidas.png" alt="Cómo medirse">
-=======
-  <div class="guia-section">
-    <h2 class="guia-title">Guía de Tallas</h2>
-    <div class="guia-layout">
-      <div class="guia-images">
-        <img src="images/18.jpeg" alt="Cómo medirse"
-             onerror="this.style.background='#f0ece7';this.style.minHeight='300px';this.alt='';">
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
       </div>
       <div class="guia-table-area">
         <div class="guia-tabs">
@@ -2810,11 +1819,7 @@ footer {
               <tr><td>XL</td><td>103</td><td>79</td><td>108</td></tr>
             </tbody>
           </table>
-<<<<<<< HEAD
           <p class="medidas-title">Cómo medirse</p>
-=======
-          <p class="medidas-title">¿Cómo medirse?</p>
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
           <div class="medida-item"><div class="medida-badge">B</div><p><strong>Busto:</strong> Mide alrededor de la parte más prominente del pecho, cinta horizontal sin apretar.</p></div>
           <div class="medida-item"><div class="medida-badge">C</div><p><strong>Cintura:</strong> Mide la parte más estrecha del torso, 2-3 cm por encima del ombligo.</p></div>
           <div class="medida-item"><div class="medida-badge">Ca</div><p><strong>Cadera:</strong> Mide la parte más ancha de las caderas y glúteos.</p></div>
@@ -2859,61 +1864,37 @@ footer {
             </tbody>
           </table>
         </div>
-<<<<<<< HEAD
       </div>
     </div>
   </div>
-=======
-
-      </div><!-- /guia-table-area -->
-    </div><!-- /guia-layout -->
-  </div><!-- /guia-section -->
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
 
   <!-- COMPLEMENTA TU OUTFIT -->
   <div class="complementa-section">
     <h2 class="complementa-title">Complementa tu Outfit</h2>
     <div class="related-grid">
       <div class="related-card">
-<<<<<<< HEAD
         <img src="images/imagen14.jpeg" alt="Pantalón unicolor">
-=======
-        <img src="images/14.jpeg" alt="Pantalón unicolor">
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
         <p class="r-name">Pantalón unicolor</p>
         <p class="r-price">$129.900</p>
       </div>
       <div class="related-card">
-<<<<<<< HEAD
         <img src="images/imagen15.jpeg" alt="Pantalón ancho bicolor">
-=======
-        <img src="images/13.jpeg" alt="Pantalón ancho bicolor">
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
         <p class="r-name">Pantalón ancho bicolor</p>
         <p class="r-price">$109.900</p>
       </div>
       <div class="related-card">
-<<<<<<< HEAD
         <img src="images/imagen16.jpeg" alt="Vestido estampado">
-=======
-        <img src="images/11.jpeg" alt="Vestido estampado">
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
         <p class="r-name">Vestido estampado</p>
         <p class="r-price">$179.900</p>
       </div>
       <div class="related-card">
-<<<<<<< HEAD
         <img src="images/imagen17.jpeg" alt="Blusa manga 3/4 unicolor">
-=======
-        <img src="images/12.jpeg" alt="Blusa manga 3/4 unicolor">
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
         <p class="r-name">Blusa manga 3/4 unicolor</p>
         <p class="r-price">$94.900</p>
       </div>
     </div>
   </div>
 
-<<<<<<< HEAD
   <!-- FOOTER PRODUCT -->
   <footer>
     <div class="footer-grid">
@@ -2962,58 +1943,6 @@ footer {
 </div><!-- product-page -->
 
 <!-- ===== MODAL GUIA DE TALLAS ===== -->
-=======
-  <!-- FOOTER (repeated) -->
-  <!-- FOOTER HOME PAGE - Corregido para coincidir con product page -->
-<footer>
-  <div class="footer-grid">
-    <div>
-      <!-- Logo blanco (igual que en product page) -->
-      <img src="images/logo-white.png" alt="L&H" style="width:140px; margin-bottom:1rem; display:block;">
-      <p class="footer-tagline">Moda colombiana con más de 50 años de historia, orgullo y talento para el mundo.</p>
-      <div class="footer-legal">
-        <p>Términos legales</p>
-        <a href="#">Términos y condiciones</a>
-        <a href="#">Política de garantía</a>
-        <a href="#">Cambios y devoluciones</a>
-        <a href="#">SIC</a>
-      </div>
-    </div>
-    <div class="footer-col">
-      <h4>¡Compañía!</h4>
-      <a href="#">Quiénes somos</a>
-      <a href="#">Colecciones</a>
-      <a href="#">Nuestras tiendas</a>
-      <a href="#">Trabaja con nosotros</a>
-      <a href="#">Intranet</a>
-    </div>
-    <div class="footer-col">
-      <h4>¿Necesitas ayuda?</h4>
-      <a href="#">Preguntas frecuentes</a>
-      <a href="#">Peticiones, quejas y reclamos</a>
-      <a href="#">Cambios y devoluciones</a>
-      <a href="#">Envíos y entregas</a>
-    </div>
-    <div class="footer-social">
-      <h4>¡Síguenos en nuestras</h4>
-      <p>REDES SOCIALES!</p>
-      <div class="social-icons">
-        <a href="#" class="social-icon">f</a>
-        <a href="#" class="social-icon">📷</a>
-        <a href="#" class="social-icon">✕</a>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>© 2025 L&H. Todos los derechos reservados.</p>
-    <p>Hecho con orgullo en Colombia 🇨🇴</p>
-  </div>
-</footer>
-
-</div><!-- /product-page -->
-
-<!-- ══════════════ MODAL GUÍA DE TALLAS ══════════════ -->
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
 <div class="modal-overlay" id="tallas-modal" onclick="closeModalOutside(event)">
   <div class="modal-box">
     <button class="modal-close" onclick="closeModal()">✕</button>
@@ -3030,11 +1959,7 @@ footer {
       <div id="mtab-msup" class="modal-panel">
         <div class="sub-tabs">
           <button class="sub-tab active" onclick="switchSubTab(this,'mc-tbl','msup')">Talla y corte</button>
-<<<<<<< HEAD
           <button class="sub-tab" onclick="switchSubTab(this,'mc-how','msup')">Cómo medirse</button>
-=======
-          <button class="sub-tab" onclick="switchSubTab(this,'mc-how','msup')">¿Cómo medirse?</button>
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
         </div>
         <div id="mc-tbl-msup">
           <div class="guia-question">¿Cómo deseas ver las medidas?</div>
@@ -3054,11 +1979,7 @@ footer {
           </table>
         </div>
         <div id="mc-how-msup" style="display:none;">
-<<<<<<< HEAD
           <p class="medidas-title">Cómo medirse</p>
-=======
-          <p class="medidas-title">¿Cómo medirse?</p>
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
           <div class="medida-item"><div class="medida-badge">B</div><p><strong>Busto:</strong> Mide alrededor de la parte más prominente del pecho, cinta horizontal sin apretar.</p></div>
           <div class="medida-item"><div class="medida-badge">C</div><p><strong>Cintura:</strong> Mide la parte más estrecha del torso, 2-3 cm por encima del ombligo.</p></div>
           <div class="medida-item"><div class="medida-badge">Ca</div><p><strong>Cadera:</strong> Mide la parte más ancha de las caderas y glúteos.</p></div>
@@ -3108,22 +2029,14 @@ footer {
 </div>
 
 <script>
-<<<<<<< HEAD
   // PAGE SWITCHING
-=======
-  // ── PAGE SWITCHING ──
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
   function showPage(page) {
     document.getElementById('home-page').style.display = page === 'home' ? 'block' : 'none';
     document.getElementById('product-page').style.display = page === 'product' ? 'block' : 'none';
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-<<<<<<< HEAD
   // MODAL
-=======
-  // ── MODAL ──
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
   function openModal() {
     document.getElementById('tallas-modal').classList.add('open');
     document.body.style.overflow = 'hidden';
@@ -3137,11 +2050,7 @@ footer {
   }
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
-<<<<<<< HEAD
   // MODAL MAIN TABS
-=======
-  // ── MODAL MAIN TABS ──
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
   function switchModalTab(btn, id) {
     document.querySelectorAll('.modal-tab').forEach(t => t.classList.remove('active'));
     document.querySelectorAll('.modal-panel').forEach(p => p.style.display = 'none');
@@ -3149,11 +2058,7 @@ footer {
     document.getElementById('mtab-' + id).style.display = 'block';
   }
 
-<<<<<<< HEAD
   // MODAL SUB TABS
-=======
-  // ── MODAL SUB TABS ──
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
   function switchSubTab(btn, type, parent) {
     btn.closest('.sub-tabs').querySelectorAll('.sub-tab').forEach(t => t.classList.remove('active'));
     btn.classList.add('active');
@@ -3163,11 +2068,7 @@ footer {
     else { tbl.style.display = 'none'; how.style.display = 'block'; }
   }
 
-<<<<<<< HEAD
   // IN-PAGE GUIA TABS
-=======
-  // ── IN-PAGE GUIA TABS ──
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
   function switchGuiaTab(btn, id) {
     document.querySelectorAll('.guia-tab').forEach(t => t.classList.remove('active'));
     document.querySelectorAll('.guia-panel').forEach(p => p.style.display = 'none');
@@ -3175,42 +2076,26 @@ footer {
     document.getElementById('gtab-' + id).style.display = 'block';
   }
 
-<<<<<<< HEAD
   // UNIT TOGGLE
-=======
-  // ── UNIT TOGGLE ──
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
   function toggleUnit(btn) {
     btn.closest('.guia-toggle').querySelectorAll('.guia-toggle-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
   }
 
-<<<<<<< HEAD
   // QTY
-=======
-  // ── QTY ──
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
   let qty = 1;
   function changeQty(delta) {
     qty = Math.max(1, qty + delta);
     document.getElementById('qty').textContent = qty;
   }
 
-<<<<<<< HEAD
   // COLOR
-=======
-  // ── COLOR ──
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
   function selColor(dot) {
     dot.closest('.color-dots').querySelectorAll('.color-dot').forEach(d => d.classList.remove('active'));
     dot.classList.add('active');
   }
 
-<<<<<<< HEAD
   // ACCORDION
-=======
-  // ── ACCORDION ──
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
   function toggleAccordion(header) {
     const body = header.nextElementSibling;
     const icon = header.querySelector('span:last-child');
@@ -3218,7 +2103,6 @@ footer {
     body.classList.toggle('open');
     icon.textContent = isOpen ? '+' : '−';
   }
-<<<<<<< HEAD
 
   // TOGGLE GUÍA DE TALLAS SECTION
 function toggleGuiaSection() {
@@ -3237,16 +2121,7 @@ function toggleGuiaSection() {
     guia.style.display = 'none';
   }
 }
-
-
 </script>
 
 </body>
 </html>
-=======
-</script>
-</body>
-</html>
->>>>>>> 052dad822de470094465624de4ad0490f88ee6b5
-
-
